@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Thushar Bommagani's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>My Portfolio</h1>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Software Developer | Problem Solver | Technology Intern</p>
+        <a href="#about">Learn More</a>
+    </section>
+    
+    <!-- Profile Section -->
+    <section class="profile-section" id="about">
+        <h2>About Me</h2>
+        <div class="profile-content">
+            <div class="profile-pic"></div>
+            <p>Detail Oriented and motivated professional with hands-on experience in AWS architecture, cloud migration projects, and AI model development. Proficient in Python, Java and SQL, with strong problem-solving skills and a background in Electronics and Communication Engineering.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-content">
+            <div class="skill-category">
+                <h3>💻 Programming Languages</h3>
+                <p><strong>Core Languages:</strong> Java,Python</p>
+            </div>
+            <div class="skill-category">
+                <h3>🌐 Web Development Expertise</h3>
+                <p><strong>Frontend:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Frameworks:</strong> React.js,Node.js</p>
+                <p><strong>Cloud:</strong> AWS,DevOps</p>
+                <p><strong>Databases:</strong> Proficient in SQL and MySQL</p>
+            </div>
+            <div class="skill-category">
+                <h3>📊 Data Analytics & Frameworks</h3>
+                <p><strong>Libraries/Frameworks:</strong> Pandas, Matplotlib</p>
+                <p><strong>Web Scraping:</strong> Beautiful Soup,HTML parsing</p>
+                
+            </div>
+            <div class="skill-category">
+                <h3>🛠Tools & Technologies</h3>
+                <p><strong>Jupyter Notebook</strong></p>
+                <p><strong>Git & GitHub</strong></p>
+                <p><strong>Postman</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <!-- <section id="tools" class="tools">
+        <h2>Tools & Technologies</h2>
+        <div class="tools-list">
+            <div class="tool">Jupyter Notebook</div>
+            <div class="tool">Git & GitHub</div>
+            <div class="tool">Postman</div>
+        </div>
+    </section> -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="p1.png" alt="Project 1">
+                <h3 style="color: #0585a8;">Cloud-Based Migration of Legacy Systems to AWS</h3>
+                <p>Migrated legacy systems to AWS, utilizing AWS S3 for storage and AWS Lambda for serverless computing. Implemented secure access management with AWS IAM and ensured consistent deployments using AWS CloudFormation. Employed AWS CloudWatch for monitoring and logging to maintain operational efficiency.</p>
+            </div>
+            <div class="project">
+                <img  src="p2.png" alt="Project 2">
+                <h3 style="color: #0585a8;">Presco</h3>
+                <p>Developed a web application and mobile application using React Native to monitor and predict sepsis in neonates. Implemented a Flask API and Node.js for backend server maintenance and data processing. Utilized Machine Learning Algorithms to predict sepsis scores based on neonatal health data. Managed backend services and Infrastructure using AWS, ensuring reliability and scalability. Integrated real-time data analysis and alert systems to provide timely interventions for neonatal care.</p>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="user_name" id="user_name" placeholder="Your Name" required>
+            <input type="email" name="user_email" id="user_email" placeholder="Your Email" required>
+            <textarea name="user_message" id="user_message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Include the EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/saithushar-bommagani-b5a951209/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/thushar_18//profilecard/?igsh=MWRhN2NrMzJscXQzbQ==" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/SAITHUSHARBOMM1" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="https://github.com/Thushar18" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            
+            <p>Developed by <strong>Sai Thushar Bommagani</strong> | © 2024 All rights reserved</p>
+            <p>
+                View the source on 
+                <a href="https://github.com/Thushar18?=repositories" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
